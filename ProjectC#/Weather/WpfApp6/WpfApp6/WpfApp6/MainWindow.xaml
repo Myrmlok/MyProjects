@@ -1,0 +1,151 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6" xmlns:mvmm="clr-namespace:MVMM" d:DataContext="{d:DesignInstance Type=mvmm:ViewModal}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="360">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="291*"/>
+            <ColumnDefinition Width="31*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="159*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="217*"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Rectangle 7.png"></ImageBrush>
+            </StackPanel.Background>
+            <Grid Height="160">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="151*"/>
+                        <ColumnDefinition Width="140*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="9*"/>
+                        <RowDefinition Height="11*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="textblockFirstTemp" Grid.Column="0" HorizontalAlignment="Right" Height="50" VerticalAlignment="Bottom" FontSize="42" Foreground="WhiteSmoke" Width="71"  >17c</TextBlock>
+                    <Image x:Name="ImageFirts" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Source="/Group.png" Height="39" Width="49" ></Image>
+                    <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                        <TextBlock Foreground="WhiteSmoke" HorizontalAlignment="Center" FontSize="16">Sunny</TextBlock>
+                        <TextBlock x:Name="TempLike" Foreground="WhiteSmoke" FontSize="16" HorizontalAlignment="Center">It feels like 15</TextBlock>
+                    </StackPanel>
+                </Grid>
+                <StackPanel></StackPanel>
+            </Grid>
+        </StackPanel>
+
+
+
+        <Image Grid.Column="1" Grid.Row="2" Stretch="Fill"  Grid.RowSpan="3" Source="/Rectangle 7.png" Margin="0,9,0,0"/>
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="56" Width="89">
+            <TextBlock  Name="textBlockCity" HorizontalAlignment="Center" FontSize="24" 
+                       Foreground="WhiteSmoke"> Moscow</TextBlock>
+            <TextBlock  Name="TextBlockTimer" HorizontalAlignment="Center" FontSize="16" Height="25" Foreground="WhiteSmoke">19:00</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="1" Height="250">
+
+            <Grid  Height="216" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="104*" />
+                    <ColumnDefinition Width="71*"/>
+                    <ColumnDefinition Width="57*" />
+                    <ColumnDefinition Width="68*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                
+                <TextBlock x:Name="TextBlockDayOfWeek1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Monday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek2"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Tuesday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek3"  Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Wednesday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek4" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Thursday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Frieday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek6" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="WhiteSmoke" >Saturday</TextBlock>
+                <TextBlock x:Name="TextBlockDayOfWeek7" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" Foreground="WhiteSmoke" >Sunday</TextBlock>
+                <StackPanel Grid.Column="1" Grid.Row="0" Grid.RowSpan="7" x:Name="boxImage">
+                <Image Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Source="/S.png" Margin="0,6,0,5" Width="18"/>
+                <Image Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Source="/S.png" Margin="0,6,0,6" Width="18"/>
+                <Image Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Source="/S.png" Margin="0,5,0,6" Width="18"/>
+                <Image Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Source="/S.png" Margin="0,6,0,5" Width="18"/>
+                <Image Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" Source="/S.png" Margin="0,6,0,5" Width="18"/>
+                <Image Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" Source="/S.png" Margin="0,6,0,6" Width="18"/>
+                    <Image Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Top" Height="20" Margin="0,6,0,6" Source="/S.png" Width="18"></Image>
+                </StackPanel>
+                <TextBlock x:Name="tempday1" Grid.Column="2" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday2" Grid.Column="2" Grid.Row="1" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday3" Grid.Column="2" Grid.Row="2" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday4" Grid.Column="2" Grid.Row="3" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="15" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday5" Grid.Column="2" Grid.Row="4" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday6" Grid.Column="2" Grid.Row="5" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempday7" Grid.Column="2" Grid.Row="6" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Top" Height="16" Width="20">20C</TextBlock>
+                
+                <TextBlock x:Name="tempnight1" Grid.Column="3" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight2" Grid.Column="3" Grid.Row="1" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight3" Grid.Column="3" Grid.Row="2" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight4" Grid.Column="3" Grid.Row="3" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="15" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight5" Grid.Column="3" Grid.Row="4" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight6" Grid.Column="3" Grid.Row="5" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="16" Width="20">20C</TextBlock>
+                <TextBlock x:Name="tempnight7" Grid.Column="3" Grid.Row="6" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Top" Height="16" Width="20">20C</TextBlock>
+
+            </Grid>
+
+        </StackPanel>
+
+        <Grid  Grid.Row="3" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32*" />
+                <RowDefinition Height="77*"/>
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="WhiteSmoke" Height="16" Width="51">Wheather</TextBlock>
+
+            <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden" Margin="0,4,0,0">
+                <StackPanel   Orientation="Horizontal"  x:Name="masterWeatherHourly">
+                    <ItemsControl ItemsSource="{Binding listWather}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,5,0">
+                                    <TextBlock Foreground="White"  Text="{Binding Hour}" HorizontalAlignment="Center"/>
+                                    <Image Height="20" Width="20"  Source="{Binding DaylyWatherIcon}" Stretch="UniformToFill"/>
+                                    <TextBlock Foreground="White" HorizontalAlignment="Center" Text="{Binding TempNight}"/>
+                                    
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/iStock-1257175082 1.png" 
+                ></ImageBrush>
+        </Grid.Background>
+
+    </Grid>
+</Window>

@@ -1,0 +1,70 @@
+﻿<Window x:Class="Registration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registration"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox x:Name="ComboboxReg" SelectedIndex="0" SelectionChanged="ComboBox_SelectionChanged">
+                <TextBlock  x:Name="ButtonReg" >Register</TextBlock>
+                <TextBlock x:Name="ButtonLogIn">Log in</TextBlock>
+                
+            </ComboBox>
+            <TextBlock HorizontalAlignment="Right" x:Name="Login"></TextBlock>
+          
+        </StackPanel>
+        <DockPanel  x:Name="Register" Grid.Row="1"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="170" Width="230" >
+            <Button DockPanel.Dock="Bottom" Click="Button_Click_Register" DataContext="IsRegister">Register</Button>
+            <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">Register</TextBlock>
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Margin="10">Login</TextBlock>
+                <TextBlock Margin="10">Password</TextBlock>
+                <TextBlock Margin="10">Repeat password</TextBlock>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Right">
+                <TextBox Margin="10" Width="100" Name="RLogin"/>
+                <TextBox Margin="10" Width="100" Name="RPassword"/>
+                <TextBox Margin="10" Width="100" Name="RRepeatPassword"/>
+            </StackPanel>
+        
+
+        </DockPanel>
+        <DockPanel  Visibility="Collapsed" x:Name="LogIn" Grid.Row="1"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="170" Width="230" >
+            <Button DockPanel.Dock="Bottom" DataContext="IsLogIn" Click="Button_Click_Register">Log in</Button>
+            <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">Log in</TextBlock>
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Margin="10">Login</TextBlock>
+                <TextBlock Margin="10">Password</TextBlock>
+                
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Right">
+                <TextBox Margin="10" Width="100" Name="LogInLogin"/>
+                <TextBox Margin="10" Width="100" Name="LogInPassword"/>
+                
+            </StackPanel>
+
+
+        </DockPanel>
+        <DockPanel Visibility="Collapsed"  x:Name="ChangedPassword" Grid.Row="1"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="170" Width="230" >
+            <Button DockPanel.Dock="Bottom"  DataContext="IsChangePassword"  Click="Button_Click_Register">Change password</Button>
+            <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">Change password</TextBlock>
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Margin="10">New Password</TextBlock>
+                <TextBlock Margin="10">Repeat Password</TextBlock>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Right">
+                <TextBox Margin="10" Width="100" Name="ChnewPassword"/>
+                <TextBox Margin="10" Width="100" Name="ChNewRepeatPassword"/>
+            </StackPanel>
+
+
+        </DockPanel>
+    </Grid>
+</Window>

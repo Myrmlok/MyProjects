@@ -1,0 +1,70 @@
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\Registration.exe.config
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\Registration.exe
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\Registration.pdb
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration_MarkupCompile.cache
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration_MarkupCompile.lref
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.g.resources
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.Properties.Resources.resources
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.exe
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.pdb
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Text.Json.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Text.Json.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Desktop\Шаг\Дмитрий\C#\classwork\Registration\Registration\obj\Debug\Registration.csproj.CopyComplete
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\Registration.exe.config
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\Registration.exe
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\Registration.pdb
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Buffers.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Memory.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Text.Json.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.ValueTuple.dll
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Buffers.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Memory.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Text.Json.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\bin\Debug\System.ValueTuple.xml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.csproj.AssemblyReference.cache
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.csproj.SuggestedBindingRedirects.cache
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\MainWindow.g.cs
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\App.g.cs
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration_MarkupCompile.cache
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration_MarkupCompile.lref
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\MainWindow.baml
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.g.resources
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.Properties.Resources.resources
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.csproj.CopyComplete
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.exe
+C:\Users\Взрослая академия\Downloads\Registration (1)\Registration\Registration\obj\Debug\Registration.pdb
