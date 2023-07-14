@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div class="menu">
+        <div class="header">
+            <h1>Starfighter</h1>
+        </div>
+        <div class="body">
+            <button class="level" onclick="level1()">level 1</button>
+            <button class="level" onclick="level2()" >level 2</button>
+            <button class="level" onclick="level3()">level 3</button>
+        </div>
+        <div class="Good">
+            <div>
+                Good game!
+            </div>
+        </div>
+    </div>
+    <canvas class="Body_game" id="MyCanvas" width="960" height="600"></canvas>
+    <div class="end">
+        <h1 class="res">Win</h1>
+        <div class="Total">Total:</div>
+        <div class="buttons">
+            <button class="returnMenu" onclick="ReturnMenu()">menu</button>
+            <button class="return" onclick="Return()" >↻</button>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
